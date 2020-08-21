@@ -9,3 +9,11 @@ export interface Imovie {
   original_name: string;
   overview: string;
 }
+
+export interface Iopts {
+  height: string;
+  width: string;
+  playerVars: {
+    autoplay: any;
+  };
+}
