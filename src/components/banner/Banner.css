@@ -25,6 +25,14 @@
   height: 80px;
 }
 
+@media (max-width: 425px) {
+  .banner__description {
+    width: 15rem;
+    font-size: 0.7rem;
+    height: 100px;
+  }
+}
+
 .banner__button {
   cursor: pointer;
   color: #fff;

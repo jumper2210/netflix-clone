@@ -15,6 +15,7 @@ function Banner() {
           Math.floor(Math.random() * request.data.results.length)
         ]
       );
+
       return request;
     }
     fetchData();
@@ -38,7 +39,7 @@ function Banner() {
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
 
-        <div className="banner++buttons">
+        <div className="banner__buttons">
           <button className="banner__button">Play</button>
           <button className="banner__button">My List</button>
         </div>
